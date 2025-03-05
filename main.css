@@ -687,7 +687,6 @@ color: #A7A8AB;
 }
 .fitgo-company-text:hover{
     color: white;
-    background-color: red;
     transition: all .3s;
 }
 .fitgo-div3-div {
@@ -719,6 +718,15 @@ margin-bottom: 30px;
 
 
 @media (max-width:768px) {
+  .fitgo{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .fitgo-div1-div {
+max-width: 281px;
+
+  }
 
   .fitgo-div2{
     display: block;
