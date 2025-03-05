@@ -425,70 +425,69 @@
         max-width: 150px;
     }
     }
-@media (max-width: 600px){
-    .empower {
-        padding-top: 90px;
-        padding-bottom: 100px;
-    }
-    
-    .empower-title {
-        max-width: 300px;
-        font-family: Russo One;
-        font-size: 30px;
-        line-height: 40px;
-        margin-bottom: 15px;
-    }
-    .empower-box {
-        display: block;
-        margin-bottom: 15px;
-        align-items: center;
-    }
-    
-    .empower-div {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px 0;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    .empower-col{
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-    .empower-row-title {
-        font-family: Russo One;
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 74.71px;
-        letter-spacing: 1%;
-        color: #851EE5;
-        margin-bottom: 0;
-    }
-    .empower-col-text{
-        font-size: 14px;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .empower-col-text{
-        width: 350px;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        margin-bottom: 32px;
-    }
-    .empower-box-img{
-        max-width: 310px;
-        margin-bottom: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .empower-box-2-img{
-        max-width: 200px;
-    }
-    }
+    @media (max-width: 600px){
 
+      .empower {
+          padding-top: 40px;
+          padding-bottom: 80px;
+      }
+      
+      .empower-title {
+          max-width: 300px;
+          font-size: 30px;
+          line-height: 30px;
+      }
+      .empower-box {
+          display: block;
+          margin-bottom: 16px;
+      }
+      
+      .empower-row-title {
+          font-size: 30px;
+          line-height: 100%;
+      }
+      
+      .empower-row-text {
+          font-family: Inter Tight;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24.2px;
+          letter-spacing: -1%;
+          color: #303030;
+      }
+      
+      .empower-col-text {
+          width: 250px;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+          margin-bottom: 20px;
+      }
+      
+      .empower-link {
+          font-weight: 400;
+          font-size: 12px;
+          padding: 12px 16px;
+      }
+      .empower-box-2 {
+          padding-top: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          align-items: center;
+          justify-content: center;
+  
+      }
+      .empower-box-img{
+          width: 250px;
+          margin-bottom: 20px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      .empower-box-2-img{
+          max-width: 200px;
+      }
+      }
 .community {
   padding-top: 121px;
   padding-bottom: 121px;
@@ -553,6 +552,7 @@
 .fitgo {
     padding-top: 100px;
     padding-bottom:108px ;
+    background-color: #22252D;
 }
 .fitgo-box {
     margin-left: auto;
@@ -560,24 +560,89 @@
     max-width: 1320px;
     padding-left:20px ;
     padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .fitgo-div1 {
 }
+.fitgo-img{
+    margin-bottom: 40px;
+}
 .fitgo-div1-div {
+    background-color: white;
+max-width: 381px;
+border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 8px  10px 10px;
+
 }
 .fitgo-div1-inp {
+    font-family: Inter Tight , sans-serif;
+font-weight: 600;
+font-size: 15px;
+line-height: 16px;
+letter-spacing: 0%;
+color: #24282C;
+border: none;
+outline: none;
 }
 .fitgo-div2 {
+    display: flex;
+    gap: 48px;
 }
 .fitgo-div2-div1 {
 }
 .fitgo-div2-div1-title {
+    font-family: Inter Tight , sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 24.2px;
+letter-spacing: 0%;
+color: #FFFFFF;
+margin-bottom: 30px;
 }
 .fitgo-div2-div1-text {
+    font-family: Inter Tight , sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #A7A8AB;
+
+margin-bottom: 20px;
+}
+.fitgo-company {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 8px;
+}
+.fitgo-company-text {
+    font-family: Inter Tight , sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #A7A8AB;
+
+}
+.fitgo-company-text:hover{
+    color: white;
+    background-color: red;
+    transition: all .3s;
 }
 .fitgo-div3-div {
 }
 .fitgo-div3-div-title {
+    font-family: Inter Tight , sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 24.2px;
+letter-spacing: 0%;
+color: #FFFFFF;
+margin-bottom: 30px;
 }
 .fitgo-div3-div-img {
 }
