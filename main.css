@@ -702,4 +702,26 @@ color: #FFFFFF;
 margin-bottom: 30px;
 }
 .fitgo-div3-div-img {
+  display: flex;
+  gap: 24px;
+}
+
+@media (max-width:1050px) {
+
+  .fitgo-box{
+    display: block;
+  }
+  .fitgo-div1{
+    margin-bottom: 40px;
+  }
+  
+}
+
+
+@media (max-width:768px) {
+
+  .fitgo-div2{
+    display: block;
+  }
+  
 }
