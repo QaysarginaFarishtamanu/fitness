@@ -405,7 +405,7 @@
 }
 
 .empower-row-title {
-    font-family: Russo One;
+    font-family: Russo One ;
     font-weight: 400;
     font-size: 52px;
     line-height: 74.71px;
@@ -415,7 +415,7 @@
 }
 
 .empower-row-text {
-    font-family: Inter Tight;
+    font-family: Inter Tight , sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 24.2px;
@@ -425,7 +425,7 @@
 
 .empower-col-text {
     width: 440px;
-    font-family: Inter Tight;
+    font-family: Inter Tight , sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 27px;
@@ -437,7 +437,7 @@
 
 .empower-link {
     text-decoration: none;
-    font-family: Inter Tight;
+    font-family: Inter Tight , sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
@@ -458,6 +458,70 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+@media (max-width: 600px){
+    .empower {
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+    
+    .empower-title {
+        max-width: 300px;
+        font-family: Russo One;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+    .empower-box {
+        display: block;
+        margin-bottom: 15px;
+        align-items: center;
+    }
+    
+    .empower-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .empower-col{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .empower-row-title {
+        font-family: Russo One;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 74.71px;
+        letter-spacing: 1%;
+        color: #851EE5;
+        margin-bottom: 0;
+    }
+    .empower-col-text{
+        font-size: 14px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .empower-col-text{
+        width: 350px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 32px;
+    }
+    .empower-box-img{
+        max-width: 310px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .empower-box-2-img{
+        max-width: 200px;
+    }
+    }
 
 .community {
   padding-top: 121px;
@@ -518,4 +582,29 @@
     font-size: 10px;
     line-height: 12px;
   }
+}
+
+.fitgo {
+}
+.fitgo-box {
+}
+.fitgo-div1 {
+}
+.fitgo-div1-div {
+}
+.fitgo-div1-inp {
+}
+.fitgo-div2 {
+}
+.fitgo-div2-div1 {
+}
+.fitgo-div2-div1-title {
+}
+.fitgo-div2-div1-text {
+}
+.fitgo-div3-div {
+}
+.fitgo-div3-div-title {
+}
+.fitgo-div3-div-img {
 }
