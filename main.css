@@ -362,103 +362,69 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media (max-width: 1200px) {  
-.empower {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.empower-img {
-    margin-bottom: 24px;
-}
-
-.empower-title {
-    max-width: 700px;
-    font-family: Russo One;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 112px;
-    letter-spacing: 1%;
-    text-align: center;
-    margin-bottom: 70px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.empower-title-span {
-    color: #303030;
-    background-color: #C3FF44;
-}
-
-.empower-box {
-    display: flex;
-    margin-bottom: 40px;
-    gap: 40px;
-    align-items: center;
-}
-
-.empower-div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px 114px;
-    margin-bottom: 56px;
-}
-
-.empower-row-title {
-    font-family: Russo One ;
-    font-weight: 400;
-    font-size: 52px;
-    line-height: 74.71px;
-    letter-spacing: 1%;
-    color: #851EE5;
-    margin-bottom: 4px;
-}
-
-.empower-row-text {
-    font-family: Inter Tight , sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24.2px;
-    letter-spacing: -1%;
-    color: #303030;
-}
-
-.empower-col-text {
-    width: 440px;
-    font-family: Inter Tight , sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 27px;
-    letter-spacing: 2%;
-    color: #484848;
-    text-align: left;
-    margin-bottom: 32px;
-}
-
-.empower-link {
-    text-decoration: none;
-    font-family: Inter Tight , sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: -1%;
-    padding: 18px 28px;
-    color: white;
-    background-color: #FE4F31;
-    border-radius: 40px;
-    text-align: left;
-}
-.empower-link:hover{
-    background-color: white;
-    border: 1px solid #FE4F31;
-    color: #FE4F31;
-    transition: all.3s;
-}
-.empower-box-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
+@media (max-width: 600px){
+    .empower {
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+    
+    .empower-title {
+        max-width: 300px;
+        font-family: Russo One;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+    .empower-box {
+        display: block;
+        margin-bottom: 15px;
+        align-items: center;
+    }
+    
+    .empower-div {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .empower-col{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .empower-row-title {
+        font-family: Russo One;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 74.71px;
+        letter-spacing: 1%;
+        color: #851EE5;
+        margin-bottom: 0;
+    }
+    .empower-col-text{
+        font-size: 14px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .empower-col-text{
+        width: 350px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 32px;
+    }
+    .empower-box-img{
+        max-width: 310px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .empower-box-2-img{
+        max-width: 150px;
+    }
+    }
 @media (max-width: 600px){
     .empower {
         padding-top: 90px;
@@ -585,8 +551,15 @@
 }
 
 .fitgo {
+    padding-top: 100px;
+    padding-bottom:108px ;
 }
 .fitgo-box {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1320px;
+    padding-left:20px ;
+    padding-right: 20px;
 }
 .fitgo-div1 {
 }
