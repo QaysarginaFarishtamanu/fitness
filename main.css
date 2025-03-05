@@ -277,7 +277,7 @@
 
 .empower-title {
     max-width: 803px;
-    font-family: Russo One;
+    font-family: Russo One , sans-serif;
     font-weight: 400;
     font-size: 80px;
     line-height: 112px;
@@ -308,7 +308,7 @@
 }
 
 .empower-row-title {
-    font-family: Russo One;
+    font-family: Russo One , sans-serif;
     font-weight: 400;
     font-size: 62px;
     line-height: 74.71px;
@@ -318,7 +318,7 @@
 }
 
 .empower-row-text {
-    font-family: Inter Tight;
+    font-family: Inter Tight , sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24.2px;
@@ -328,7 +328,7 @@
 
 .empower-col-text {
     width: 440px;
-    font-family: Inter Tight;
+    font-family: Inter Tight , sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
@@ -340,7 +340,7 @@
 
 .empower-link {
     text-decoration: none;
-    font-family: Inter Tight;
+    font-family: Inter Tight , sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
@@ -362,8 +362,8 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-}
-@media (max-width: 1120px){
+
+@media (max-width: 1240px){
     .empower {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -380,7 +380,7 @@
     }
     
     .empower-box {
-        display: flex;
+        display: block;
         margin-bottom: 40px;
         gap: 30px;
         align-items: center;
@@ -416,7 +416,7 @@
 
 .empower-title {
     max-width: 500px;
-    font-family: Russo One;
+    font-family: Russo One , sans-serif;
     font-size: 50px;
     line-height: 112px;
 }
@@ -444,7 +444,7 @@
     text-align: center;
 }
 .empower-row-title {
-    font-family: Russo One;
+    font-family: Russo One , sans-serif;
     font-weight: 400;
     font-size: 62px;
     line-height: 74.71px;
@@ -479,7 +479,7 @@
 }
 }
 
-    @media (max-width: 600px){
+    @media (max-width: 660px){
 
       .empower {
           padding-top: 40px;
@@ -502,7 +502,7 @@
       }
       
       .empower-row-text {
-          font-family: Inter Tight;
+          font-family: Inter Tight , sans-serif;
           font-weight: 400;
           font-size: 14px;
           line-height: 24.2px;
