@@ -1219,3 +1219,47 @@ max-width: 270px;
   
   
 }
+
+
+.terms {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #22252D;
+  border-top: 1px solid #E5E5E555
+}
+.terms-box {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.terms-text {
+  font-family: Inter Tight , sans-serif;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
+
+@media (max-width:550px) {
+.terms {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.terms-box {
+  display: block;
+}
+
+.terms-text {
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 10px;
+}
+
+}
