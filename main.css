@@ -1201,8 +1201,8 @@ margin-bottom: 30px;
 
 @media (max-width:768px) {
   .fitgo{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;  
+    padding-bottom: 30px;
   }
 
   .fitgo-div1-div {
@@ -1359,21 +1359,39 @@ gap: 20px;
     padding-bottom: 50px;
   }
   .history-vidio{
-    width: 310px;
+    width: 380px;
     height: 240px;
 
   }
   .history-title{
-    font-size: 40px;
-    line-height: 80px;
+    font-size: 30px;
+    line-height: 60px;
+    margin-bottom: 30px;
   }
   .history-div-img {
   grid-template-columns:  1fr;
 gap: 20px;
-width: 220px;
+width: 230px;
+
 
   }
+.historydiv-img{
 
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+}   
+
+}
+
+@media (max-width:450px) {
+  .history-vidio{
+    width: 280px;
+    height: 240px;
+
+  }
 }
 
 
