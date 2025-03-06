@@ -497,8 +497,8 @@
     @media (max-width: 660px){
 
       .empower {
-          padding-top: 40px;
-          padding-bottom: 80px;
+          padding-top: 20px;
+          padding-bottom: 40px;
       }
       .empower-img-div{
   text-align: center;
@@ -508,6 +508,7 @@
           max-width: 300px;
           font-size: 30px;
           line-height: 30px;
+          margin-bottom: 30px;
       }
       .empower-box {
           display: block;
@@ -551,7 +552,7 @@
   
       }
       .empower-box-img{
-          width: 250px;
+          width: 100%;
           margin-bottom: 20px;
           margin-left: auto;
           margin-right: auto;
@@ -577,6 +578,10 @@
         color: #FFFFFF;
     }
     
+    .program-img-div{
+      text-align: center;
+
+    }
     .program-img {
         margin-bottom: 24px;
     }
@@ -604,9 +609,13 @@
         padding-left: 40px;
         padding-right: 40px;
         position: relative;
+        background-color: #c3ff44;
+        padding-left: 40px;
+        padding-right: 40px;
+        position: relative;
         display: inline-block;
         clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
-        background-color: #c3ff44;
+
     }
     
     .program-text {
@@ -742,7 +751,7 @@
         }
     
         .program-row-title {
-            font-family: Russo One;
+            font-family: Russo One , sans-serif;
             font-weight: 400;
             font-size: 50px;
             line-height: 72.3px;
@@ -850,6 +859,7 @@
           border-radius: 16px;
           background-color: #292B30;
           max-width: 280px;
+          margin-bottom: 40px;
       }
   
       .program-img {
@@ -1099,8 +1109,6 @@ width: 100%;
 .fitgo-div2 {
     display: flex;
     gap: 48px;
-}
-.fitgo-div2-div1 {
 }
 .fitgo-div2-div1-title {
     font-family: Inter Tight , sans-serif;
