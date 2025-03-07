@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 .header {
   padding-top: 31px;
@@ -100,8 +103,6 @@
   background-size: cover;
 }
 
-.hero {
-}
 .hero-box {
   margin-left: auto;
   margin-right: auto;
@@ -182,6 +183,9 @@
   position: relative;
   right: 0;
   top: 0;
+  margin-left: -110px;
+  height: 866px;
+  object-fit: cover;
 }
 
 .hero-span {
@@ -561,7 +565,7 @@
           margin-right: auto;
       }
       .empower-box-2-img{
-          max-width: 200px;
+          max-width: 100%;
       }
       }
 
@@ -841,7 +845,7 @@
   
       .program-row-title {
           max-width: 80px;
-          font-family: Russo One;
+          font-family: Russo One , sans-serif;
           font-weight: 400;
           font-size: 60px;
           line-height: 72.3px;
@@ -904,8 +908,8 @@
   
       .program-title {
           max-width: 250px;
-          font-size: 40px;
-          line-height: 50px;
+          font-size: 30px;
+          line-height: 40px;
           margin-bottom: 30px;
           text-align: center;
           margin-left: auto;
@@ -1105,14 +1109,14 @@
     .history-div-img {
     grid-template-columns:  1fr;
   gap: 20px;
-  width: 230px;
+  width: 1;
   
   
     }
   .historydiv-img{
   
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
   
@@ -1124,6 +1128,7 @@
     .history-vidio{
       width: 280px;
       height: 240px;
+      margin-bottom: 20px;
   
     }
   }
@@ -1891,7 +1896,8 @@ margin-bottom: 30px;
   gap: 24px;
 }
 .fitgo-div3-div-img-h:hover{
-  color: #FE4F31;
+  background-color: #FE4F31;
+  color: white;
 }
 .fitgo-a{
   color: #303030;
