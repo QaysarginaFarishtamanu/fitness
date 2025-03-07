@@ -7,7 +7,6 @@
 .header {
   padding-top: 31px;
   padding-bottom: 20px;
-  background-color: #303030;
 }
 .header-box {
   margin-left: auto;
@@ -96,8 +95,12 @@
   }
 }
 
+.hero-bg{
+  background-image: url(./img/Hero-bg.png);
+  background-size: cover;
+}
+
 .hero {
-  background-color: #303030;
 }
 .hero-box {
   margin-left: auto;
@@ -1394,4 +1397,140 @@ width: 230px;
   }
 }
 
+
+
+.trainers {
+  padding-top:100px ;
+  padding-bottom: 50px;
+}
+.trainers-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.trainers-info {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+.trainers-img {
+  display: block;
+  margin-bottom: 24px;
+ 
+
+}
+.trainers-title {
+  font-family: Russo One , sans-serif;
+font-weight: 400;
+font-size: 80px;
+line-height: 140%;
+letter-spacing: 1%;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 70px;
+color: #0C2E68;
+}
+.trainers-title b{
+  display: block;
+  background-color: #C3FF44;
+  clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #141E2F;
+}
+
+.trainers-card {
+  max-width: 520px;
+}
+.trainers-card-img {
+  width: 100%;
+  height: 344px;
+  display: block;
+  margin-bottom: 29px;
+  border-radius: 16px;
+  object-fit:cover ;
+}
+.trainers-card-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trainers-card-title {
+  font-family: Russo One , sans-serif;
+font-weight: 400;
+font-size: 34px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+color: #0C2E68;
+margin-bottom:4px ;
+}
+.trainers-card-card-text {
+  font-family: Inter Tight , sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: -1%;
+color: #484848;
+}
+.trainers-card-starts {
+}
+.trainers-card-start {
+}
+
+
+.swiper-slide-active  .trainers-card > img{
+  height: 520px;
+  transition: all .3s;
+}
+
+.swiper-slide-prev .trainers-card > img{
+  height: 520px;
+  transition: all .3s;
+}
+
+
+.swiper-button-next1{
+  width: 48px;
+  height: 48px;
+  background-color: white;
+  border: 1.5px solid #1D1E22;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-125%);
+  z-index: 111111;
+  cursor: pointer;
+}
+
+.swiper-button-prev1{
+  width: 48px;
+  height: 48px;
+  background-color: white;
+  border: 1.5px solid #1D1E22;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 100px;
+  right: 50%;
+  transform: translateX(125%) rotate(180deg);
+  z-index: 111111;
+  cursor: pointer;
+}
+
+
+.mySwiper{
+  position: relative;
+}
 
