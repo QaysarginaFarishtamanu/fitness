@@ -248,6 +248,7 @@ html{
   }
 .hero-img {
   height: auto;
+  margin-left: 0;
 }
 }
 
@@ -416,7 +417,7 @@ html{
     }
     
     .empower-row-title {
-        font-family: Russo One;
+        font-family: Russo One , sans-serif;
         font-weight: 400;
         font-size: 52px;
         line-height: 74.71px;
@@ -736,7 +737,7 @@ html{
         }
     
         .program-col-titl {
-            font-family: Russo One;
+            font-family: Russo One , sans-serif;
             font-weight: 400;
             font-size: 28px;
             line-height: 33.74px;
@@ -746,7 +747,7 @@ html{
         }
     
         .program-col-text {
-            font-family: Inter Tight;
+            font-family: Inter Tight , sans-serif;
             font-weight: 400;
             font-size: 16px;
             line-height: 24px;
@@ -805,7 +806,7 @@ html{
 
 
         .program-row-title {
-          font-family: Russo One;
+          font-family: Russo One , sans-serif;
           font-weight: 400;
           font-size: 60px;
           line-height: 72.3px;
@@ -1160,7 +1161,7 @@ html{
 
 .pricelist-title {
   max-width: 803px;
-  font-family: Russo One;
+  font-family: Russo One , sans-serif;
   font-weight: 400;
   font-size: 80px;
   line-height: 112px;
@@ -1227,7 +1228,7 @@ html{
 .pricelist-row-link {
   text-decoration: none;
   padding: 10px 18px;
-  font-family: Russo One;
+  font-family: Russo One , sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
@@ -1255,7 +1256,7 @@ html{
 }
 
 .pricelist-col-title {
-  font-family: Russo One;
+  font-family: Russo One , sans-serif;
   font-weight: 400;
   font-size: 44px;
   line-height: 53.02px;
@@ -1264,7 +1265,7 @@ html{
 }
 
 .pricelist-col-span {
-  font-family: Russo One;
+  font-family: Russo One , sans-serif;
   font-weight: 400;
   font-size: 38px;
   line-height: 45.79px;
@@ -1273,7 +1274,7 @@ html{
 }
 
 .pricelist-col-text {
-  font-family: Russo One;
+  font-family: Russo One , sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -1286,7 +1287,7 @@ html{
 .pricelist-col-link {
   width: 100%;
   text-decoration: none;
-  font-family: Inter Tight;
+  font-family: Inter Tight , sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 16px;
@@ -1317,7 +1318,7 @@ html{
   display: flex;
   align-items: center;
   gap: 8px;
-  font-family: Inter Tight;
+  font-family: Inter Tight , sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -1360,7 +1361,7 @@ html{
   .pricelist-row-link {
     text-decoration: none;
     padding: 10px 18px;
-    font-family: Russo One;
+    font-family: Russo One , sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 14px;
@@ -1377,7 +1378,7 @@ html{
     align-items: center;
     gap: 8px;
     text-decoration: none;
-    font-family: Russo One;
+    font-family: Russo One  , sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -1388,7 +1389,7 @@ html{
 }
 
 .pricelist-col-title {
-    font-family: Russo One;
+    font-family: Russo One , sans-serif;
     font-weight: 400;
     font-size: 40px;
     line-height: 53.02px;
@@ -1397,7 +1398,7 @@ html{
 }
 
 .pricelist-col-span {
-    font-family: Russo One;
+    font-family: Russo One , sans-serif;
     font-weight: 400;
     font-size: 30px;
     line-height: 45.79px;
@@ -1406,7 +1407,7 @@ html{
 }
 
 .pricelist-col-text {
-    font-family: Russo One;
+    font-family: Russo One , sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -1419,7 +1420,7 @@ html{
 .pricelist-col-link {
     width: 250px;
     text-decoration: none;
-    font-family: Inter Tight;
+    font-family: Inter Tight , sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
@@ -1450,7 +1451,7 @@ html{
     display: flex;
     align-items: center;
     gap: 8px;
-    font-family: Inter Tight;
+    font-family: Inter Tight , sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -1506,7 +1507,7 @@ html{
 .pricelist-row-link {
     text-decoration: none;
     padding: 10px 18px;
-    font-family: Russo One;
+    font-family: Russo One , sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 14px;
@@ -1523,7 +1524,7 @@ html{
     align-items: center;
     gap: 8px;
     text-decoration: none;
-    font-family: Russo One;
+    font-family: Russo One , sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
@@ -1534,7 +1535,7 @@ html{
 }
 
 .pricelist-col-title {
-    font-family: Russo One;
+    font-family: Russo One , sans-serif;
     font-weight: 400;
     font-size: 44px;
     line-height: 53.02px;
@@ -1543,7 +1544,7 @@ html{
 }
   
 .pricelist-col-span {
-  font-family: Russo One;
+  font-family: Russo One , sans-serif;
   font-weight: 400;
   font-size: 38px;
   line-height: 45.79px;
@@ -1552,7 +1553,7 @@ html{
 }
 
 .pricelist-col-text {
-  font-family: Russo One;
+  font-family: Russo One , sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -1567,7 +1568,7 @@ html{
 .pricelist-col-link {
   width: 100%;
   text-decoration: none;
-  font-family: Inter Tight;
+  font-family: Inter Tight , sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 16px;
@@ -1600,7 +1601,7 @@ html{
   display: flex;
   align-items: center;
   gap: 8px;
-  font-family: Inter Tight;
+  font-family: Inter Tight , sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -1684,7 +1685,7 @@ html{
 .pricelist-row-link {
   text-decoration: none;
   padding: 10px;
-  font-family: Russo One;
+  font-family: Russo One , sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -1701,7 +1702,7 @@ html{
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  font-family: Russo One;
+  font-family: Russo One , sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
